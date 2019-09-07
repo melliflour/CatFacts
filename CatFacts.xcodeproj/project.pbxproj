@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		DC9A359D23234E4A0074DA06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9A359C23234E4A0074DA06 /* AppDelegate.swift */; };
-		DC9A359F23234E4A0074DA06 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9A359E23234E4A0074DA06 /* ViewController.swift */; };
+		DC9A359F23234E4A0074DA06 /* CatFactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9A359E23234E4A0074DA06 /* CatFactViewController.swift */; };
 		DC9A35A223234E4A0074DA06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC9A35A023234E4A0074DA06 /* Main.storyboard */; };
 		DC9A35A423234E4D0074DA06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC9A35A323234E4D0074DA06 /* Assets.xcassets */; };
 		DC9A35A723234E4D0074DA06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC9A35A523234E4D0074DA06 /* LaunchScreen.storyboard */; };
+		DC9A35AF232350CF0074DA06 /* catFact.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9A35AE232350CF0074DA06 /* catFact.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DC9A359923234E4A0074DA06 /* CatFacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatFacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC9A359C23234E4A0074DA06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DC9A359E23234E4A0074DA06 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC9A359E23234E4A0074DA06 /* CatFactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFactViewController.swift; sourceTree = "<group>"; };
 		DC9A35A123234E4A0074DA06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DC9A35A323234E4D0074DA06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC9A35A623234E4D0074DA06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC9A35A823234E4D0074DA06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC9A35AE232350CF0074DA06 /* catFact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = catFact.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +57,9 @@
 			isa = PBXGroup;
 			children = (
 				DC9A359C23234E4A0074DA06 /* AppDelegate.swift */,
-				DC9A359E23234E4A0074DA06 /* ViewController.swift */,
+				DC9A359E23234E4A0074DA06 /* CatFactViewController.swift */,
 				DC9A35A023234E4A0074DA06 /* Main.storyboard */,
+				DC9A35AE232350CF0074DA06 /* catFact.swift */,
 				DC9A35A323234E4D0074DA06 /* Assets.xcassets */,
 				DC9A35A523234E4D0074DA06 /* LaunchScreen.storyboard */,
 				DC9A35A823234E4D0074DA06 /* Info.plist */,
@@ -135,7 +138,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC9A359F23234E4A0074DA06 /* ViewController.swift in Sources */,
+				DC9A35AF232350CF0074DA06 /* catFact.swift in Sources */,
+				DC9A359F23234E4A0074DA06 /* CatFactViewController.swift in Sources */,
 				DC9A359D23234E4A0074DA06 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
